@@ -1,0 +1,2 @@
+/home/fmw-sa/Documents/cv_trial/CMakeFiles/contouring.dir
+/home/fmw-sa/Documents/cv_trial/CMakeFiles/down_sampling.dir

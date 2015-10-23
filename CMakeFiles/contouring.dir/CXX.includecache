@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fmw-sa/Documents/cv_trial/contouring.cpp
+opencv2/highgui/highgui.hpp
+/home/fmw-sa/Documents/cv_trial/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/home/fmw-sa/Documents/cv_trial/opencv2/imgproc/imgproc.hpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+string
+-
+opencv2/features2d/features2d.hpp
+/home/fmw-sa/Documents/cv_trial/opencv2/features2d/features2d.hpp
+
