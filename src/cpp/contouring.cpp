@@ -36,7 +36,7 @@ void trav_tree(vector<Vec4i> hierarchy, int start_leaf,
 /** @function main */
 int main(int argc, char** argv) {
 	if (argc < 2) {
-		src = imread("Query_images/13.jpg", 1);
+		src = imread("resources/Query_images/13.jpg", 1);
 	} else {
 		src = imread(argv[1], 1);
 	}

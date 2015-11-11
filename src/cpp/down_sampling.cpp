@@ -18,11 +18,11 @@ string window_name = "Pyramids Demo";
 int main( int argc, char** argv )
 {
     string readfile;
-    double scaling_factor;
+    double scaling_factor = 0.8;
     bool automatic_flag = true;
     if ( argc < 2 )
     {
-        readfile = "Original_images/obj_001_001.jpg";
+        readfile = "resources/Original_images/camera_lg/obj_001_001.jpg";
     }
     else 
     {
@@ -75,7 +75,8 @@ int main( int argc, char** argv )
       }
     else if( (char)c == 'd' )
      { 
-       resize( tmp, dst, Size( tmp.cols*scaling_factor, tmp.rows*scaling_factor ) );
+       std::cout <<"rows: "<<tmp.cols<<" columns: "<< tmp.rows <<"\n";
+       resize( tmp, dst, Size( tmp.cols*scaling_factor, tmp.rows*scaling_factor) );
        printf( "** Zoom Out: Image \n" );
        i++;
      }
