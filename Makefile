@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fmw-sa/Documents/cv_trial
+CMAKE_SOURCE_DIR = /home/fmw-sa/Repos/OpenCV_for_suction_grasps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fmw-sa/Documents/cv_trial
+CMAKE_BINARY_DIR = /home/fmw-sa/Repos/OpenCV_for_suction_grasps
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fmw-sa/Documents/cv_trial/CMakeFiles /home/fmw-sa/Documents/cv_trial/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fmw-sa/Repos/OpenCV_for_suction_grasps/CMakeFiles /home/fmw-sa/Repos/OpenCV_for_suction_grasps/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fmw-sa/Documents/cv_trial/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fmw-sa/Repos/OpenCV_for_suction_grasps/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -124,53 +124,53 @@ down_sampling/fast:
 	$(MAKE) -f CMakeFiles/down_sampling.dir/build.make CMakeFiles/down_sampling.dir/build
 .PHONY : down_sampling/fast
 
-contouring.o: contouring.cpp.o
-.PHONY : contouring.o
+src/cpp/contouring.o: src/cpp/contouring.cpp.o
+.PHONY : src/cpp/contouring.o
 
 # target to build an object file
-contouring.cpp.o:
-	$(MAKE) -f CMakeFiles/contouring.dir/build.make CMakeFiles/contouring.dir/contouring.cpp.o
-.PHONY : contouring.cpp.o
+src/cpp/contouring.cpp.o:
+	$(MAKE) -f CMakeFiles/contouring.dir/build.make CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o
+.PHONY : src/cpp/contouring.cpp.o
 
-contouring.i: contouring.cpp.i
-.PHONY : contouring.i
+src/cpp/contouring.i: src/cpp/contouring.cpp.i
+.PHONY : src/cpp/contouring.i
 
 # target to preprocess a source file
-contouring.cpp.i:
-	$(MAKE) -f CMakeFiles/contouring.dir/build.make CMakeFiles/contouring.dir/contouring.cpp.i
-.PHONY : contouring.cpp.i
+src/cpp/contouring.cpp.i:
+	$(MAKE) -f CMakeFiles/contouring.dir/build.make CMakeFiles/contouring.dir/src/cpp/contouring.cpp.i
+.PHONY : src/cpp/contouring.cpp.i
 
-contouring.s: contouring.cpp.s
-.PHONY : contouring.s
+src/cpp/contouring.s: src/cpp/contouring.cpp.s
+.PHONY : src/cpp/contouring.s
 
 # target to generate assembly for a file
-contouring.cpp.s:
-	$(MAKE) -f CMakeFiles/contouring.dir/build.make CMakeFiles/contouring.dir/contouring.cpp.s
-.PHONY : contouring.cpp.s
+src/cpp/contouring.cpp.s:
+	$(MAKE) -f CMakeFiles/contouring.dir/build.make CMakeFiles/contouring.dir/src/cpp/contouring.cpp.s
+.PHONY : src/cpp/contouring.cpp.s
 
-down_sampling.o: down_sampling.cpp.o
-.PHONY : down_sampling.o
+src/cpp/down_sampling.o: src/cpp/down_sampling.cpp.o
+.PHONY : src/cpp/down_sampling.o
 
 # target to build an object file
-down_sampling.cpp.o:
-	$(MAKE) -f CMakeFiles/down_sampling.dir/build.make CMakeFiles/down_sampling.dir/down_sampling.cpp.o
-.PHONY : down_sampling.cpp.o
+src/cpp/down_sampling.cpp.o:
+	$(MAKE) -f CMakeFiles/down_sampling.dir/build.make CMakeFiles/down_sampling.dir/src/cpp/down_sampling.cpp.o
+.PHONY : src/cpp/down_sampling.cpp.o
 
-down_sampling.i: down_sampling.cpp.i
-.PHONY : down_sampling.i
+src/cpp/down_sampling.i: src/cpp/down_sampling.cpp.i
+.PHONY : src/cpp/down_sampling.i
 
 # target to preprocess a source file
-down_sampling.cpp.i:
-	$(MAKE) -f CMakeFiles/down_sampling.dir/build.make CMakeFiles/down_sampling.dir/down_sampling.cpp.i
-.PHONY : down_sampling.cpp.i
+src/cpp/down_sampling.cpp.i:
+	$(MAKE) -f CMakeFiles/down_sampling.dir/build.make CMakeFiles/down_sampling.dir/src/cpp/down_sampling.cpp.i
+.PHONY : src/cpp/down_sampling.cpp.i
 
-down_sampling.s: down_sampling.cpp.s
-.PHONY : down_sampling.s
+src/cpp/down_sampling.s: src/cpp/down_sampling.cpp.s
+.PHONY : src/cpp/down_sampling.s
 
 # target to generate assembly for a file
-down_sampling.cpp.s:
-	$(MAKE) -f CMakeFiles/down_sampling.dir/build.make CMakeFiles/down_sampling.dir/down_sampling.cpp.s
-.PHONY : down_sampling.cpp.s
+src/cpp/down_sampling.cpp.s:
+	$(MAKE) -f CMakeFiles/down_sampling.dir/build.make CMakeFiles/down_sampling.dir/src/cpp/down_sampling.cpp.s
+.PHONY : src/cpp/down_sampling.cpp.s
 
 # Help Target
 help:
@@ -182,12 +182,12 @@ help:
 	@echo "... down_sampling"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... contouring.o"
-	@echo "... contouring.i"
-	@echo "... contouring.s"
-	@echo "... down_sampling.o"
-	@echo "... down_sampling.i"
-	@echo "... down_sampling.s"
+	@echo "... src/cpp/contouring.o"
+	@echo "... src/cpp/contouring.i"
+	@echo "... src/cpp/contouring.s"
+	@echo "... src/cpp/down_sampling.o"
+	@echo "... src/cpp/down_sampling.i"
+	@echo "... src/cpp/down_sampling.s"
 .PHONY : help
 
 

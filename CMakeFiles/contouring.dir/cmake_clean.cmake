@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/contouring.dir/contouring.cpp.o"
-  "contouring.pdb"
-  "contouring"
+  "CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o"
+  "bin/contouring.pdb"
+  "bin/contouring"
 )
 
 # Per-language clean rules from dependency scanning.

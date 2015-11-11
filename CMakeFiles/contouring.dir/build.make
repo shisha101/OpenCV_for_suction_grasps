@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fmw-sa/Documents/cv_trial
+CMAKE_SOURCE_DIR = /home/fmw-sa/Repos/OpenCV_for_suction_grasps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fmw-sa/Documents/cv_trial
+CMAKE_BINARY_DIR = /home/fmw-sa/Repos/OpenCV_for_suction_grasps
 
 # Include any dependencies generated for this target.
 include CMakeFiles/contouring.dir/depend.make
@@ -49,76 +49,76 @@ include CMakeFiles/contouring.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/contouring.dir/flags.make
 
-CMakeFiles/contouring.dir/contouring.cpp.o: CMakeFiles/contouring.dir/flags.make
-CMakeFiles/contouring.dir/contouring.cpp.o: contouring.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/fmw-sa/Documents/cv_trial/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/contouring.dir/contouring.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/contouring.dir/contouring.cpp.o -c /home/fmw-sa/Documents/cv_trial/contouring.cpp
+CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o: CMakeFiles/contouring.dir/flags.make
+CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o: src/cpp/contouring.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/fmw-sa/Repos/OpenCV_for_suction_grasps/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o -c /home/fmw-sa/Repos/OpenCV_for_suction_grasps/src/cpp/contouring.cpp
 
-CMakeFiles/contouring.dir/contouring.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/contouring.dir/contouring.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/fmw-sa/Documents/cv_trial/contouring.cpp > CMakeFiles/contouring.dir/contouring.cpp.i
+CMakeFiles/contouring.dir/src/cpp/contouring.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/contouring.dir/src/cpp/contouring.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/fmw-sa/Repos/OpenCV_for_suction_grasps/src/cpp/contouring.cpp > CMakeFiles/contouring.dir/src/cpp/contouring.cpp.i
 
-CMakeFiles/contouring.dir/contouring.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/contouring.dir/contouring.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/fmw-sa/Documents/cv_trial/contouring.cpp -o CMakeFiles/contouring.dir/contouring.cpp.s
+CMakeFiles/contouring.dir/src/cpp/contouring.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/contouring.dir/src/cpp/contouring.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/fmw-sa/Repos/OpenCV_for_suction_grasps/src/cpp/contouring.cpp -o CMakeFiles/contouring.dir/src/cpp/contouring.cpp.s
 
-CMakeFiles/contouring.dir/contouring.cpp.o.requires:
-.PHONY : CMakeFiles/contouring.dir/contouring.cpp.o.requires
+CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o.requires:
+.PHONY : CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o.requires
 
-CMakeFiles/contouring.dir/contouring.cpp.o.provides: CMakeFiles/contouring.dir/contouring.cpp.o.requires
-	$(MAKE) -f CMakeFiles/contouring.dir/build.make CMakeFiles/contouring.dir/contouring.cpp.o.provides.build
-.PHONY : CMakeFiles/contouring.dir/contouring.cpp.o.provides
+CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o.provides: CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o.requires
+	$(MAKE) -f CMakeFiles/contouring.dir/build.make CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o.provides.build
+.PHONY : CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o.provides
 
-CMakeFiles/contouring.dir/contouring.cpp.o.provides.build: CMakeFiles/contouring.dir/contouring.cpp.o
+CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o.provides.build: CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o
 
 # Object files for target contouring
 contouring_OBJECTS = \
-"CMakeFiles/contouring.dir/contouring.cpp.o"
+"CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o"
 
 # External object files for target contouring
 contouring_EXTERNAL_OBJECTS =
 
-contouring: CMakeFiles/contouring.dir/contouring.cpp.o
-contouring: CMakeFiles/contouring.dir/build.make
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_ts.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-contouring: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-contouring: CMakeFiles/contouring.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable contouring"
+bin/contouring: CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o
+bin/contouring: CMakeFiles/contouring.dir/build.make
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_ts.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+bin/contouring: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+bin/contouring: CMakeFiles/contouring.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable bin/contouring"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/contouring.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/contouring.dir/build: contouring
+CMakeFiles/contouring.dir/build: bin/contouring
 .PHONY : CMakeFiles/contouring.dir/build
 
-CMakeFiles/contouring.dir/requires: CMakeFiles/contouring.dir/contouring.cpp.o.requires
+CMakeFiles/contouring.dir/requires: CMakeFiles/contouring.dir/src/cpp/contouring.cpp.o.requires
 .PHONY : CMakeFiles/contouring.dir/requires
 
 CMakeFiles/contouring.dir/clean:
@@ -126,6 +126,6 @@ CMakeFiles/contouring.dir/clean:
 .PHONY : CMakeFiles/contouring.dir/clean
 
 CMakeFiles/contouring.dir/depend:
-	cd /home/fmw-sa/Documents/cv_trial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fmw-sa/Documents/cv_trial /home/fmw-sa/Documents/cv_trial /home/fmw-sa/Documents/cv_trial /home/fmw-sa/Documents/cv_trial /home/fmw-sa/Documents/cv_trial/CMakeFiles/contouring.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fmw-sa/Repos/OpenCV_for_suction_grasps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fmw-sa/Repos/OpenCV_for_suction_grasps /home/fmw-sa/Repos/OpenCV_for_suction_grasps /home/fmw-sa/Repos/OpenCV_for_suction_grasps /home/fmw-sa/Repos/OpenCV_for_suction_grasps /home/fmw-sa/Repos/OpenCV_for_suction_grasps/CMakeFiles/contouring.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/contouring.dir/depend
 

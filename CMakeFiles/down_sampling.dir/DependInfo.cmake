@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fmw-sa/Documents/cv_trial/down_sampling.cpp" "/home/fmw-sa/Documents/cv_trial/CMakeFiles/down_sampling.dir/down_sampling.cpp.o"
+  "/home/fmw-sa/Repos/OpenCV_for_suction_grasps/src/cpp/down_sampling.cpp" "/home/fmw-sa/Repos/OpenCV_for_suction_grasps/CMakeFiles/down_sampling.dir/src/cpp/down_sampling.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

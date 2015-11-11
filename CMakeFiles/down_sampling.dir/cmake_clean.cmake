@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/down_sampling.dir/down_sampling.cpp.o"
-  "down_sampling.pdb"
-  "down_sampling"
+  "CMakeFiles/down_sampling.dir/src/cpp/down_sampling.cpp.o"
+  "bin/down_sampling.pdb"
+  "bin/down_sampling"
 )
 
 # Per-language clean rules from dependency scanning.
